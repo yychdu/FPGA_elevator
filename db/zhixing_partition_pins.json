@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "DRIVE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DRIVE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DRIVE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DRIVE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "m16",
+					"strict" : false
+				},
+				{
+					"name" : "S",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Apr 17 19:06:55 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : zhixing
+Top-level Entity Name : 1t2
+Family : Cyclone IV E
+Total logic elements : 110
+    Total combinational functions : 109
+    Dedicated logic registers : 75
+Total registers : 75
+Total pins : 8
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

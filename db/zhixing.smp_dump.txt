@@ -1,0 +1,7 @@
+
+State Machine - |zhixing|reco:inst3|n
+Name n.0011 n.0010 n.0001 n.0100 
+n.0001 0 0 0 0 
+n.0010 0 1 1 0 
+n.0011 1 0 1 0 
+n.0100 0 0 1 1 

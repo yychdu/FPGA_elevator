@@ -1,0 +1,16 @@
+module counter ( input clk, input cnt_in ,output reg cnt_out );
+reg [26:0] count;
+always @(posedge clk )
+begin
+if(count=27'd100_000_000)
+count<=27'b0;
+cnt_out<=1;
+else
+count<=count+1'b1;
+end
+always @(posedge clk )
+begin
+if(count==27'd100_000_000)
+cnt_out<=0;
+end
+endmodule

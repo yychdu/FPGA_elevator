@@ -1,0 +1,21 @@
+
+      module counter ( input clk, input s , output reg cnt_out) ;
+		reg [26:0] count;
+
+      always @(posedge s )
+		
+		begin
+
+      if(count==27'd100000000)
+		begin count<=27 'b0;
+	        end cnt_out<=0;
+
+      else begin count<=count+1'b1;
+		         cnt_out<=1 ;
+		end
+
+		end
+
+      endmodule
+
+
